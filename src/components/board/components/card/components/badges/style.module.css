@@ -1,0 +1,21 @@
+.container {
+  padding-left: 16px;
+}
+
+.list {
+  display: flex;
+  flex-flow: row wrap;
+  gap: 4px;
+}
+
+.item {
+  background-color: var(--theme-color);
+  border-radius: 24px;
+  color: var(--color-white);
+  padding: 8px 16px;
+  font-size: 14px;
+}
+
+.heading {
+  font-size: 12px;
+}

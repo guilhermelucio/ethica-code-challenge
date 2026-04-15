@@ -1,0 +1,30 @@
+.container {
+  align-items: center;
+  display: flex;
+  flex-flow: row nowrap;
+  gap: 16px;
+  height: 40px;
+  width: 100%;
+}
+
+.heading {
+  font-size: 24px;
+  font-weight: bold;
+}
+
+.badge {
+  align-items: center;
+  background-color: var(--global-theme-color, transparent);
+  color: white;
+  border-radius: 24px;
+  display: flex;
+  flex-flow: row nowrap;
+  gap: 8px;
+  padding: 8px 16px;
+}
+
+.button {
+  border: none;
+  background: none;
+  cursor: pointer;
+}
